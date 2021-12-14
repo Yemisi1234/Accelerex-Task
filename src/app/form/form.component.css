@@ -1,0 +1,174 @@
+.form_container{
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  position: absolute;
+  width: 40%;
+  height: 70vh;
+  background-color: #FBFBFB;
+  margin-left: 15%;
+  margin-top: -24%;
+  border-radius: 20px;
+  box-shadow: 0px 4px 20px #00000029;
+}
+.name_container{
+  display: flex;
+}
+.form_h2{
+  text-align: center;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  padding-top: 55px;
+}
+.form_p{
+  text-align: center;
+  font-size: 13px;
+  padding-bottom: 15px;
+}
+.name_container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.name_container > input:first-child{
+  margin-right: 30px;
+}
+input{
+  background-color: #Fff;
+  border: none;
+  outline-color: lightskyblue;
+  display: flex;
+  gap: 50px;
+}
+input, button{
+  height: 32px;
+  border-radius: 5px;
+}
+.Romania{
+  display: flex;
+  width: -100%;
+  margin-bottom: 20px;
+}
+.exampleList, .Romania{
+  width: 100%;
+  background-color: #fff;
+}
+.name_container > input,
+.email,
+.budget,
+.btn{
+  width: 100%
+}
+.btn{
+  background-color: #FF6E4E;
+  color: #fff;
+  border: none;
+  margin-top: 25px;
+}
+.name_container_span{
+  margin-right: 10px;
+}
+span{
+  color: red;
+}
+.form_fill{
+  display: none;
+
+}
+@media (max-width: 1024px){
+  .form_h2{
+    margin-left: -299%;
+    display: none;
+  }
+  .btn{
+    padding: 20px;
+    margin-top: 10px;
+  }
+  .form_p{
+    display: none;
+  }
+  .form_fill{
+   display: block;
+   text-align: center;
+   font-size: 13px;
+   padding-bottom: 15px;
+   color: lightskyblue;
+   width: 70%;
+   font-size: 20px;
+  }
+  .form_container{
+    box-shadow: 0px 3px 6px #00000029;
+    margin-left: 10;
+    height: 100vh;
+    overflow: hidden;
+
+  }
+  .form_container, form, p{
+    padding: 18px;
+    top: 160px;
+    left: -40px;
+    margin-top: 2%;
+    width: 100%;
+    max-width: 90%;
+    overflow: hidden;
+  }
+  .form_p{
+    color: rgba(56, 204, 245, 1);
+  }
+  input, button{
+    height: 42px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+}
+@media (max-width: 600px){
+  .form_h2{
+    margin-left: -299%;
+    display: none;
+  }
+  .btn{
+    padding: 20px;
+    margin-top: 10px;
+  }
+  .form_p{
+    display: none;
+  }
+  .form_fill{
+   display: block;
+   text-align: center;
+   font-size: 13px;
+   padding-bottom: 15px;
+   color: lightskyblue;
+   width: 70%;
+   font-size: 20px;
+  }
+  .form_container{
+    box-shadow: 0px 3px 6px #00000029;
+    margin-left: 10;
+    height: 100vh;
+    overflow: hidden;
+    top: 100%;
+
+  }
+  .form_container, form, p{
+    padding: 18px;
+    top: 160px;
+    left: -40px;
+    margin-top: 2%;
+    width: 100%;
+    max-width: 90%;
+    overflow: hidden;
+  }
+  .form_p{
+    color: rgba(56, 204, 245, 1);
+  }
+  input, button{
+    height: 42px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+}
+

@@ -1,0 +1,87 @@
+.socials > img{
+  width: 100%;
+  height: 45vh;
+  padding: 0;
+  margin: 0;
+}
+.socials_p{
+  position: absolute;
+  top: 960px;
+  left: 430px;
+  width: 800px;
+  font-size: 22px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #38CCF5;
+}
+.group{
+  display: none;
+}
+@media (max-width: 1200px){
+  .socials > img{
+    display: none;
+  }
+  .group{
+    display: block;
+    background-image: url('../../assets/group.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150%;
+    height: 337px;
+    overflow: hidden;
+  }
+  .socials_p{
+    top: 800px;
+    left: 150px;
+    font-size: 25px;
+    text-align: center;
+    text-align: left;
+    width: 43%;
+    position: absolute;
+    overflow: hidden;
+}
+}
+@media (max-width: 800px)
+{
+  .socials > img{
+    display: none;
+  }
+  .group{
+    display: block;
+    background-image: url('../../assets/group.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150%;
+    height: 337px;
+    overflow: hidden;
+  }
+  .socials_p{
+    top: 800px;
+    left: 150px;
+    font-size: 25px;
+    text-align: center;
+    text-align: left;
+    width: 43%;
+    position: absolute;
+    overflow: hidden;
+}
+}
+@media(max-width: 600px){
+  .socials_p{
+    background-color: black;
+    padding: 20px;
+    width: 30%;
+    margin-right: 100%;
+    text-align: center;
+  }
+  .group{
+    display: none;
+  }
+}
+
+
+
+
+
+
+

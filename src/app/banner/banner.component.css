@@ -1,0 +1,25 @@
+.container{
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  justify-content: space-between;
+  margin: 70px 90px;
+  position: relative;
+}
+
+@media(max-width: 600px){
+  .container{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+    height: 90vh;
+    margin-bottom: 40%;
+    padding-bottom: 30px;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+}
+

@@ -1,0 +1,84 @@
+.big_cirle{
+  width: 400px;
+  height: 366px;
+  opacity: 0.6;
+  margin-left: 70px;
+}
+.dots{
+  margin-top: 40px;
+  margin-left: 28%;
+  width: 200px;
+  height: 141px;
+}
+.circle_dots{
+  display: flex;
+}
+.large-circle[_ngcontent-bbj-c16] {
+  top: 49%;
+  left: 26%;
+  background-color: red;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.medium-circle[_ngcontent-bbj-c16] {
+  top: 60%;
+  left: 22%;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.circle_dots > svg{
+  margin-bottom: 80px;
+  margin-top: 35px;
+  margin-right: 97px;
+}
+.transform, .transform-gpu {
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 1;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+}
+.transform {
+  transform: translateX(var(--tw-translate-x))
+  translateY(var(--tw-translate-y))
+  rotate(var(--tw-rotate))
+}
+.absolute {
+  position: absolute;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.small-circle[_ngcontent-bbj-c16] {
+  top: 68%;
+  left: 19%;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.-translate-y-8 {
+  --tw-translate-y: -5rem;
+}
+.translate-x-64 {
+  --tw-translate-x: 13rem;
+}
+@media (max-width: 1200px){
+  .big_cirle{
+    display: none;
+  }
+  .circle_dots > svg{
+    display: none;
+  }
+}
+@media (max-width: 738px){
+  .big_cirle{
+    display: none;
+  }
+  .circle_dots > svg{
+    display: none;
+  }
+}
+

@@ -1,0 +1,91 @@
+<div class="form_container" action="">
+  <form #basicForm="ngForm" (submit)="getData(basicForm.value)">
+    <h2 class="form_h2">We’ll be in touch to get your trial set up.</h2>
+    <p class="form_p">Fill Out Form</p>
+    <p class="form_fill">Fill out details</p>
+    <div class="name_container">
+      <div class="name_container_span">
+        <input
+          type="text"
+          required
+          #firstname="ngModel"
+          minlength="3"
+          name="user"
+          placeholder="  First Name*"
+          ngModel
+        />
+        <span *ngIf="firstname.invalid && firstname.touched"
+          >Please enter your First Name</span
+        >
+      </div>
+      <div>
+        <input
+          type="text"
+          required
+          #lastname="ngModel"
+          email
+          minlength="3"
+          name="lastname"
+          placeholder="  Last Name*"
+          ngModel
+        />
+        <span *ngIf="lastname.invalid && lastname.touched"
+          >Please enter your Last Name</span
+        >
+      </div>
+    </div>
+    <input
+      type="text"
+      required
+      email
+      #email="ngModel"
+      name="email"
+      class="email"
+      placeholder="  Work Email*"
+      ngModel
+    /><br />
+    <span *ngIf="email.invalid && email.touched">Please enter your Email</span>
+    <input
+      type="text"
+      required
+      #budget="ngModel"
+      name="budget"
+      class="budget"
+      placeholder="  Monthly Advertising Budget*"
+      ngModel
+    /><br />
+    <span *ngIf="budget.invalid && budget.touched"
+      >Please enter a valid figure</span
+    >
+    <div class="Romania">
+      <div>
+        <input
+          type="text"
+          required
+          #currency="ngModel"
+          name="example"
+          class="exampleList"
+          list="exampleList"
+          placeholder="  Romania (Roman)"
+          ngModel
+        />
+        <span *ngIf="currency.invalid && currency.touched"
+          >Please enter a valid number</span
+        >
+      </div>
+      <datalist id="exampleList">
+        <option value="CA"></option>
+        <option value="EU"></option>
+      </datalist>
+
+      <input
+        type="number"
+        required
+        #number="ngModel"
+        placeholder="+1 (555) 987-6543"
+        ngModel
+      />
+    </div>
+    <button class="btn">GET FREE TRIAL</button>
+  </form>
+</div>
